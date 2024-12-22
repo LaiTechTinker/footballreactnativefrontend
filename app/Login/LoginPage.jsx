@@ -37,7 +37,7 @@ export default function (){
   const[iconname,setIconName]=useState('eye')
   const changehandler=(inputName,inputValue)=>{
     setValues({...value,[inputName]:inputValue})
-    // console.log(inputValue)
+    console.log(inputValue)
   }
   const handleshowhide=()=>{
     setIconName('eye-slash')
