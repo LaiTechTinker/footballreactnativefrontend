@@ -77,8 +77,8 @@ export default function RootLayout() {
   },[appIsReady]);
   return(
   // //  <Drawerer/>
-  // <Taber/>
-  <LoginPage/>
+  <Taber/>
+  // <Signup/>
 
 
 
