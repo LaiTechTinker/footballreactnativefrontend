@@ -95,7 +95,9 @@ const HomePage=()=>{
          </View>
          <Text style={style1.Compettiton}>All Competitions</Text>   
          <View style={style1.compbx}>
-        <ScrollView style={{flex:1}}>
+         <ScrollView style={{flex:1}}> 
+         
+       
           { VideoData.map((item)=>{
             return(
               <View style={style1.subcompbx}>
@@ -118,7 +120,7 @@ const HomePage=()=>{
           </View> 
             )
           })}
-        </ScrollView>
+        </ScrollView> 
        {/* <FlatList data={VideoData} renderItem={Rendermatches}/> */}
 
          </View>

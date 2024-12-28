@@ -10,11 +10,7 @@ const allvid=[
         "Title":"first match of the week",
         "Text":0
     },
-    {
-        "Url":Logo,
-        "Title":"first match of the week",
-        "Text":0
-    },
+ 
     
    
 ]

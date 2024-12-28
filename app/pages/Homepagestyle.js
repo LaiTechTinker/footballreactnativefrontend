@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet,StatusBar} from 'react-native';
 const Homestyle=StyleSheet.create({
     container:{
         flex:1,
@@ -14,6 +14,8 @@ const Homestyle=StyleSheet.create({
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
+   
+       
        
     },
     topsideText:{
@@ -95,9 +97,11 @@ flexDirection:'column',
         backgroundColor:'white',
         padding:20,
        width:'90%',
+      
+       
        display:'flex',
        flexDirection:'column',
-       gap:15,
+       gap:20,
         borderRadius:10,
         shadowColor:'black',
       
@@ -108,7 +112,8 @@ flexDirection:'column',
         },
         shadowOpacity:0.25,
         shadowRadius:4,
-        elevation:5
+        elevation:5,
+        marginBottom:10
      },
     subcompbx:{
         backgroundColor:'white',
@@ -116,9 +121,10 @@ flexDirection:'column',
        width:'99%',
        display:'flex',
        flexDirection:'column',
-       gap:15,
+     
         borderRadius:10,
         shadowColor:'black',
+        marginBottom:15,
       
         alignSelf:'center',
         shadowOffset:{
@@ -172,6 +178,12 @@ flexDirection:'column',
         fontSize:20,
         fontWeight:'bold',
         textAlign:'center'
+    },
+    test:{
+        width:'90%',
+        height:40,
+        borderWidth:2,
+        borderColor:'black'
     }
 })
 export default Homestyle
